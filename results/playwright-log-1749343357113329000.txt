@@ -1,0 +1,141 @@
+{"level":30,"time":"2025-06-08T00:42:37.797Z","pid":22788,"hostname":"SivConj","msg":"Listening on 52011"}
+(node:22788) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-06-08T00:42:38.317Z","pid":22788,"hostname":"SivConj","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-06-08T00:42:38.586Z","pid":22788,"hostname":"SivConj","msg":"Adding browser to stack: chromium, version: 130.0.6723.31"}
+{"level":30,"time":"2025-06-08T00:42:38.588Z","pid":22788,"hostname":"SivConj","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-06-08T00:42:38.587Z","pid":22788,"hostname":"SivConj","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-06-08T00:42:38.612Z","pid":22788,"hostname":"SivConj","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-06-08T00:42:38.613Z","pid":22788,"hostname":"SivConj","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-08T00:42:38.613Z","pid":22788,"hostname":"SivConj","msg":"Trace file: "}
+{"level":30,"time":"2025-06-08T00:42:38.642Z","pid":22788,"hostname":"SivConj","msg":"Changed active context"}
+{"level":30,"time":"2025-06-08T00:42:38.643Z","pid":22788,"hostname":"SivConj","msg":"End of node method newContext"}
+{"level":30,"time":"2025-06-08T00:42:38.677Z","pid":22788,"hostname":"SivConj","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-06-08T00:42:38.678Z","pid":22788,"hostname":"SivConj","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-08T00:42:39.076Z","pid":22788,"hostname":"SivConj","msg":"Video path: undefined"}
+{"level":30,"time":"2025-06-08T00:42:39.077Z","pid":22788,"hostname":"SivConj","msg":"Changed active page"}
+{"level":30,"time":"2025-06-08T00:42:47.660Z","pid":22788,"hostname":"SivConj","msg":"End of node method newPage"}
+{"level":30,"time":"2025-06-08T00:42:47.695Z","pid":22788,"hostname":"SivConj","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-08T00:42:47.696Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is enabled, find Locator with xpath=//a[text()= 'Dynamic Content'] in page."}
+{"level":30,"time":"2025-06-08T00:42:53.142Z","pid":22788,"hostname":"SivConj","msg":"End of node method click"}
+{"level":30,"time":"2025-06-08T00:42:53.165Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:42:53.166Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:42:53.166Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:42:53.222Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:42:53.225Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:42:59.635Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:42:59.636Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:42:59.636Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:42:59.671Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:42:59.672Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:43:06.550Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:43:06.550Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:43:06.550Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:43:06.576Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:43:06.576Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:43:12.951Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:43:12.951Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:43:12.951Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:43:12.977Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:43:12.977Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:43:19.804Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:43:19.804Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:43:19.804Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:43:19.845Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:43:19.846Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:43:26.239Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:43:26.239Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:43:26.239Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:43:26.284Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:43:26.285Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:43:32.977Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:43:32.977Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:43:32.977Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:43:32.996Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:43:32.996Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:43:39.369Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:43:39.369Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:43:39.370Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:43:39.406Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:43:39.407Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:43:45.798Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:43:45.799Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:43:45.799Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:43:45.838Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:43:45.838Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:43:52.215Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:43:52.215Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:43:52.215Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:43:52.241Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:43:52.242Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:43:58.643Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:43:58.643Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:43:58.644Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:43:58.700Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:43:58.701Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:44:05.087Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:44:05.087Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:44:05.087Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:44:05.112Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:44:05.112Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:44:11.463Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:44:11.463Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:44:11.464Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:44:11.497Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:44:11.497Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:44:17.886Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:44:17.886Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:44:17.886Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:44:17.903Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:44:17.903Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:44:24.263Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:44:24.263Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:44:24.264Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:44:24.307Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:44:24.307Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:44:30.677Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:44:30.677Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:44:30.677Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:44:30.708Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:44:30.708Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:44:37.123Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:44:37.123Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:44:37.123Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:44:37.170Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:44:37.170Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:44:43.547Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:44:43.548Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:44:43.548Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:44:43.575Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:44:43.576Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:44:49.960Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:44:49.960Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:44:49.960Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:44:50.010Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:44:50.011Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:44:56.410Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:44:56.411Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:44:56.411Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:44:56.473Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:44:56.473Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:45:02.876Z","pid":22788,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-08T00:45:02.876Z","pid":22788,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: *.large-10 in page."}
+{"level":30,"time":"2025-06-08T00:45:02.876Z","pid":22788,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-08T00:45:02.908Z","pid":22788,"hostname":"SivConj","msg":"Found 4 elements."}
+{"level":30,"time":"2025-06-08T00:45:02.908Z","pid":22788,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-08T00:45:08.935Z","pid":22788,"hostname":"SivConj","msg":"Removed page=1d1bbbf8-50b2-4894-941d-7e5ff8b2cc54 from context=ebb7da7a-0903-4fa2-8d2a-c9ba85da8461 page stack"}
+C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\lib\client\connection.js:217
+      if (!object) throw new Error(`Object with guid ${arg.guid} was not bound in the connection`);
+                   ^
+
+Error: Object with guid response@4c5c8f13a787cee66c2190ac6c105429 was not bound in the connection
+    at Connection._tChannelImplFromWire (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\lib\client\connection.js:217:26)
+    at C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\lib\protocol\validatorPrimitives.js:128:20
+    at C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\lib\protocol\validatorPrimitives.js:90:12
+    at C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\lib\protocol\validatorPrimitives.js:107:21
+    at Connection.dispatch (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\lib\client\connection.js:177:26)
+    at Immediate.<anonymous> (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\lib\inProcessFactory.js:49:83)
+    at process.processImmediate (node:internal/timers:485:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+
+Node.js v22.15.1

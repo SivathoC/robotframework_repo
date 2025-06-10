@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "robotframework2025"
+version = "0.1.0"
+description = "Test project for Robot Framework"
+authors = ["SVG"]
+license = "GNU V3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+robotframework = "^7.0"
+robotframework-browser = "^18.2.0"
+PyYAML = "^6.0.1"
+robotframework-autoitlibrary = "1.2.9"
+robotframework-requests = "0.9.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry-masonry.api"

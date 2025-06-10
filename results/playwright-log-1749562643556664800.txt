@@ -1,0 +1,84 @@
+{"level":30,"time":"2025-06-10T13:37:25.349Z","pid":54916,"hostname":"SivConj","msg":"Listening on 65486"}
+(node:54916) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-06-10T13:37:25.996Z","pid":54916,"hostname":"SivConj","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-06-10T13:37:26.595Z","pid":54916,"hostname":"SivConj","msg":"Adding browser to stack: chromium, version: 130.0.6723.31"}
+{"level":30,"time":"2025-06-10T13:37:26.596Z","pid":54916,"hostname":"SivConj","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-06-10T13:37:26.596Z","pid":54916,"hostname":"SivConj","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-06-10T13:37:26.616Z","pid":54916,"hostname":"SivConj","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-06-10T13:37:26.616Z","pid":54916,"hostname":"SivConj","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-10T13:37:26.617Z","pid":54916,"hostname":"SivConj","msg":"Trace file: "}
+{"level":30,"time":"2025-06-10T13:37:26.722Z","pid":54916,"hostname":"SivConj","msg":"Changed active context"}
+{"level":30,"time":"2025-06-10T13:37:26.723Z","pid":54916,"hostname":"SivConj","msg":"End of node method newContext"}
+{"level":30,"time":"2025-06-10T13:37:26.745Z","pid":54916,"hostname":"SivConj","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-06-10T13:37:26.746Z","pid":54916,"hostname":"SivConj","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-10T13:37:27.513Z","pid":54916,"hostname":"SivConj","msg":"Video path: undefined"}
+{"level":30,"time":"2025-06-10T13:37:27.513Z","pid":54916,"hostname":"SivConj","msg":"Changed active page"}
+{"level":30,"time":"2025-06-10T13:37:35.961Z","pid":54916,"hostname":"SivConj","msg":"End of node method newPage"}
+{"level":30,"time":"2025-06-10T13:37:35.977Z","pid":54916,"hostname":"SivConj","msg":"Start of node method getElement"}
+{"level":30,"time":"2025-06-10T13:37:35.978Z","pid":54916,"hostname":"SivConj","msg":"Strict mode is enabled, find Locator with xpath=//a[text()='Form Authentication'] in page."}
+{"level":30,"time":"2025-06-10T13:37:36.062Z","pid":54916,"hostname":"SivConj","msg":"End of node method getElement"}
+{"level":30,"time":"2025-06-10T13:37:36.087Z","pid":54916,"hostname":"SivConj","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-10T13:37:36.088Z","pid":54916,"hostname":"SivConj","msg":"Strict mode is enabled, find Locator with xpath=//a[text()='Form Authentication'] in page."}
+{"level":30,"time":"2025-06-10T13:37:41.610Z","pid":54916,"hostname":"SivConj","msg":"End of node method click"}
+{"level":30,"time":"2025-06-10T13:37:41.625Z","pid":54916,"hostname":"SivConj","msg":"Start of node method getElements"}
+{"level":30,"time":"2025-06-10T13:37:41.626Z","pid":54916,"hostname":"SivConj","msg":"Strict mode is disabled, return Locator: xpath=//em in page."}
+{"level":30,"time":"2025-06-10T13:37:41.626Z","pid":54916,"hostname":"SivConj","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2025-06-10T13:37:41.715Z","pid":54916,"hostname":"SivConj","msg":"Found 2 elements."}
+{"level":30,"time":"2025-06-10T13:37:41.716Z","pid":54916,"hostname":"SivConj","msg":"End of node method getElements"}
+{"level":30,"time":"2025-06-10T13:37:41.727Z","pid":54916,"hostname":"SivConj","msg":"Start of node method getText"}
+{"level":30,"time":"2025-06-10T13:37:41.728Z","pid":54916,"hostname":"SivConj","msg":"Strict mode is enabled, find Locator with xpath=//em >> nth=0 in page."}
+{"level":30,"time":"2025-06-10T13:37:41.967Z","pid":54916,"hostname":"SivConj","msg":"Retrieved text for element xpath=//em >> nth=0 containing tomsmith"}
+{"level":30,"time":"2025-06-10T13:37:41.967Z","pid":54916,"hostname":"SivConj","msg":"End of node method getText"}
+{"level":30,"time":"2025-06-10T13:37:41.983Z","pid":54916,"hostname":"SivConj","msg":"Start of node method getText"}
+{"level":30,"time":"2025-06-10T13:37:41.983Z","pid":54916,"hostname":"SivConj","msg":"Strict mode is enabled, find Locator with xpath=//em >> nth=1 in page."}
+{"level":30,"time":"2025-06-10T13:37:42.075Z","pid":54916,"hostname":"SivConj","msg":"Retrieved text for element xpath=//em >> nth=1 containing SuperSecretPassword!"}
+{"level":30,"time":"2025-06-10T13:37:42.076Z","pid":54916,"hostname":"SivConj","msg":"End of node method getText"}
+{"level":30,"time":"2025-06-10T13:37:42.127Z","pid":54916,"hostname":"SivConj","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-10T13:37:42.127Z","pid":54916,"hostname":"SivConj","msg":"Strict mode is enabled, find Locator with #username in page."}
+{"level":30,"time":"2025-06-10T13:37:47.238Z","pid":54916,"hostname":"SivConj","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-10T13:37:47.250Z","pid":54916,"hostname":"SivConj","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-06-10T13:37:47.250Z","pid":54916,"hostname":"SivConj","msg":"Strict mode is enabled, find Locator with #password in page."}
+{"level":30,"time":"2025-06-10T13:37:52.288Z","pid":54916,"hostname":"SivConj","msg":"End of node method fillText"}
+{"level":30,"time":"2025-06-10T13:37:52.294Z","pid":54916,"hostname":"SivConj","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-10T13:37:52.294Z","pid":54916,"hostname":"SivConj","msg":"Strict mode is enabled, find Locator with button[type='submit'] in page."}
+{"level":30,"time":"2025-06-10T13:37:57.935Z","pid":54916,"hostname":"SivConj","msg":"End of node method click"}
+{"level":30,"time":"2025-06-10T13:37:57.943Z","pid":54916,"hostname":"SivConj","msg":"Start of node method getText"}
+{"level":30,"time":"2025-06-10T13:37:57.943Z","pid":54916,"hostname":"SivConj","msg":"Strict mode is enabled, find Locator with #flash in page."}
+{"level":30,"time":"2025-06-10T13:37:58.007Z","pid":54916,"hostname":"SivConj","msg":"Retrieved text for element #flash containing  Your username is invalid!\n×"}
+{"level":30,"time":"2025-06-10T13:37:58.008Z","pid":54916,"hostname":"SivConj","msg":"End of node method getText"}
+{"level":30,"time":"2025-06-10T13:37:58.020Z","pid":54916,"hostname":"SivConj","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-06-10T13:37:58.060Z","pid":54916,"hostname":"SivConj","msg":"Removed page=4f2fc144-3503-4450-b413-de293b6ab645 from context=2eadb0c2-f050-480c-9d05-71f74a5aa213 page stack"}
+{"level":30,"time":"2025-06-10T13:37:58.395Z","pid":54916,"hostname":"SivConj","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\index.js:10982:15)
+    at PlaywrightServer.getActiveBrowser (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\index.js:11598:59)
+    at PlaywrightServer.setTimeout (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\index.js:11837:57)
+    at Object.onReceiveHalfClose (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-06-10T13:37:58.447Z","pid":54916,"hostname":"SivConj","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-10T13:37:58.447Z","pid":54916,"hostname":"SivConj","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\index.js:10982:15)
+    at PlaywrightServer.getActiveBrowser (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\index.js:11598:59)
+    at PlaywrightServer.setTimeout (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\index.js:11837:57)
+    at Object.onReceiveHalfClose (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-06-10T13:37:58.487Z","pid":54916,"hostname":"SivConj","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-10T13:37:58.487Z","pid":54916,"hostname":"SivConj","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-10T13:37:58.548Z","pid":54916,"hostname":"SivConj","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-06-10T13:37:58.549Z","pid":54916,"hostname":"SivConj","msg":"End of node method closeAllBrowsers"}

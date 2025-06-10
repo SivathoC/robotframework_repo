@@ -1,0 +1,37 @@
+{"level":30,"time":"2025-06-08T00:38:12.623Z","pid":30608,"hostname":"SivConj","msg":"Listening on 51819"}
+(node:30608) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\index.js:10982:15)
+    at PlaywrightServer.getActiveBrowser (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\index.js:11598:59)
+    at PlaywrightServer.setTimeout (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\index.js:11837:57)
+    at Object.onReceiveHalfClose (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-06-08T00:38:12.787Z","pid":30608,"hostname":"SivConj","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-08T00:38:12.788Z","pid":30608,"hostname":"SivConj","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-08T00:38:12.796Z","pid":30608,"hostname":"SivConj","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-06-08T00:38:12.796Z","pid":30608,"hostname":"SivConj","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\index.js:10982:15)
+    at PlaywrightServer.getActiveBrowser (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\index.js:11598:59)
+    at PlaywrightServer.setTimeout (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\index.js:11837:57)
+    at Object.onReceiveHalfClose (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-06-08T00:38:12.850Z","pid":30608,"hostname":"SivConj","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-08T00:38:12.850Z","pid":30608,"hostname":"SivConj","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-08T00:38:12.894Z","pid":30608,"hostname":"SivConj","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-06-08T00:38:12.894Z","pid":30608,"hostname":"SivConj","msg":"End of node method closeAllBrowsers"}

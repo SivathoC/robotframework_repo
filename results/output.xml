@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.12.10 on win32)" generated="2025-06-10T16:16:00.321871" rpa="false" schemaversion="5">
+<suite id="s1" name="Robotframework" source="C:\Dev\magic_orange\robotframework">
+<suite id="s1-s1" name="Tests" source="C:\Dev\magic_orange\robotframework\tests">
+<suite id="s1-s1-s1" name="Ui" source="C:\Dev\magic_orange\robotframework\tests\ui">
+<suite id="s1-s1-s1-s1" name="fileUpload test" source="C:\Dev\magic_orange\robotframework\tests\ui\fileUpload_test.robot">
+<test id="s1-s1-s1-s1-t1" name="Test File Upload" line="14">
+<kw name="Set up browser" owner="browser_management" type="SETUP">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-06-10T16:16:00.690549" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 5000.0, "timeout": 30000.0, "tracesDir": "C:\\Dev\\magic_orange\\robotframework\\results\\browser\\traces\\3e873ab8-70e1-4433-89c6-f80b9b13764c"}</msg>
+<msg time="2025-06-10T16:16:00.716099" level="INFO">Starting Browser process C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\index.js using port 51412</msg>
+<msg time="2025-06-10T16:16:00.717012" level="INFO">Node startup parameters: ['node', 'C:\\Dev\\magic_orange\\robotframework\\.venv\\Lib\\site-packages\\Browser\\wrapper\\index.js', '51412']</msg>
+<msg time="2025-06-10T16:16:02.120552" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":5000,"timeout":30000,"tracesDir":"C:\\Dev\\magic_orange\\robotframework\\results\\browser\\traces\\3e873ab8-70e1-4433-89c6-f80b9b13764c"}</msg>
+<arg>browser=${browser}</arg>
+<arg>headless=${headless}</arg>
+<arg>slowMo=${slowMo}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-06-10T16:16:00.683633" elapsed="1.437741"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2025-06-10T16:16:02.124077" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "height": 768,
+    "width": 1366
+  }
+}</msg>
+<msg time="2025-06-10T16:16:02.174036" level="INFO">Successfully created context. </msg>
+<msg time="2025-06-10T16:16:02.175036" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 768, 'width': 1366}}</msg>
+<arg>viewport=${viewport}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2025-06-10T16:16:02.122068" elapsed="0.052968"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-06-10T16:16:11.444424" level="INFO">Successfully initialized new page object and opened url: https://the-internet.herokuapp.com/</msg>
+<arg>url=https://the-internet.herokuapp.com/</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-06-10T16:16:02.176034" elapsed="9.268390"/>
+</kw>
+<arg>headless=False</arg>
+<arg>viewport={"width": 1366, "height": 768}</arg>
+<status status="PASS" start="2025-06-10T16:16:00.683633" elapsed="10.763270"/>
+</kw>
+<kw name="Get file upload link" owner="landing_page">
+<kw name="Get Element" owner="Browser">
+<msg time="2025-06-10T16:16:11.510540" level="INFO">Locator found successfully.</msg>
+<msg time="2025-06-10T16:16:11.511538" level="INFO">${file_upload_link} = xpath=//a[text()='File Upload']</msg>
+<var>${file_upload_link}</var>
+<arg>selector=xpath=//a[text()='File Upload']</arg>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns a reference to a Playwright [https://playwright.dev/docs/api/class-locator|Locator].</doc>
+<status status="PASS" start="2025-06-10T16:16:11.454065" elapsed="0.057473"/>
+</kw>
+<return>
+<value>${file_upload_link}</value>
+<status status="PASS" start="2025-06-10T16:16:11.511538" elapsed="0.000999"/>
+</return>
+<msg time="2025-06-10T16:16:11.513749" level="INFO">${file_upload_link} = xpath=//a[text()='File Upload']</msg>
+<var>${file_upload_link}</var>
+<status status="PASS" start="2025-06-10T16:16:11.452942" elapsed="0.060807"/>
+</kw>
+<kw name="Go to file upload page" owner="fileUpload_page">
+<kw name="Click" owner="Browser">
+<msg time="2025-06-10T16:16:11.517014" level="INFO">Clicks the element 'xpath=//a[text()='File Upload']'.</msg>
+<arg>${file_upload_link}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-10T16:16:11.515831" elapsed="5.443357"/>
+</kw>
+<arg>${file_upload_link}</arg>
+<status status="PASS" start="2025-06-10T16:16:11.514758" elapsed="5.444430"/>
+</kw>
+<kw name="File Upload" owner="fileUpload_page">
+<kw name="Upload File By Selector" owner="Browser">
+<arg>selector=#file-upload</arg>
+<arg>path=${filePath}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Uploads file from `path` to file input element matched by selector.</doc>
+<status status="PASS" start="2025-06-10T16:16:16.959188" elapsed="5.053050"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-06-10T16:16:22.012238" level="INFO">Clicks the element '#file-submit'.</msg>
+<arg>selector=#file-submit</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-10T16:16:22.012238" elapsed="6.385684"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-06-10T16:16:28.436251" level="INFO">Waited for Element with selector text=File Uploaded! at state visible</msg>
+<arg>text=File Uploaded!</arg>
+<arg>state=visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-06-10T16:16:28.397922" elapsed="0.039329"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-06-10T16:16:28.488078" level="INFO">Text: 'File Uploaded!'</msg>
+<msg time="2025-06-10T16:16:28.488078" level="INFO">${uploadStatus} = File Uploaded!</msg>
+<var>${uploadStatus}</var>
+<arg>selector=xpath=//div[@class='example']/h3</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-10T16:16:28.437251" elapsed="0.050827"/>
+</kw>
+<return>
+<value>${uploadStatus}</value>
+<status status="PASS" start="2025-06-10T16:16:28.488078" elapsed="0.002010"/>
+</return>
+<msg time="2025-06-10T16:16:28.490088" level="INFO">${uploadStatus} = File Uploaded!</msg>
+<var>${uploadStatus}</var>
+<arg>${filePath}</arg>
+<status status="PASS" start="2025-06-10T16:16:16.959188" elapsed="11.530900"/>
+</kw>
+<kw name="Should Contain" owner="BuiltIn">
+<arg>${uploadStatus}</arg>
+<arg>File Uploaded!</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<status status="PASS" start="2025-06-10T16:16:28.490088" elapsed="0.002010"/>
+</kw>
+<kw name="Close Browser" owner="Browser">
+<msg time="2025-06-10T16:16:28.890692" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-06-10T16:16:28.493399" elapsed="0.397293"/>
+</kw>
+<status status="PASS" start="2025-06-10T16:16:00.683633" elapsed="28.207059"/>
+</test>
+<status status="PASS" start="2025-06-10T16:16:00.387892" elapsed="28.534393"/>
+</suite>
+<status status="PASS" start="2025-06-10T16:16:00.384851" elapsed="28.566710"/>
+</suite>
+<status status="PASS" start="2025-06-10T16:16:00.378901" elapsed="28.573818"/>
+</suite>
+<status status="PASS" start="2025-06-10T16:16:00.328875" elapsed="28.624955"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Robotframework" id="s1" pass="1" fail="0" skip="0">Robotframework</stat>
+<stat name="Tests" id="s1-s1" pass="1" fail="0" skip="0">Robotframework.Tests</stat>
+<stat name="Ui" id="s1-s1-s1" pass="1" fail="0" skip="0">Robotframework.Tests.Ui</stat>
+<stat name="fileUpload test" id="s1-s1-s1-s1" pass="1" fail="0" skip="0">Robotframework.Tests.Ui.fileUpload test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

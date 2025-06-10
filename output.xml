@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.12.10 on win32)" generated="2025-06-08T02:05:51.215169" rpa="false" schemaversion="5">
+<suite id="s1" name="fileUpload test" source="C:\Dev\magic_orange\robotframework\fileUpload_test.robot">
+<test id="s1-t1" name="Test 1" line="6">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-06-08T02:05:51.408584" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 5000.0, "timeout": 30000.0, "tracesDir": "C:\\Dev\\magic_orange\\robotframework\\browser\\traces\\f600d11f-14fb-4eb6-a179-da89c900739e"}</msg>
+<msg time="2025-06-08T02:05:51.437277" level="INFO">Starting Browser process C:\Dev\magic_orange\robotframework\.venv\Lib\site-packages\Browser\wrapper\index.js using port 50220</msg>
+<msg time="2025-06-08T02:05:51.437277" level="INFO">Node startup parameters: ['node', 'C:\\Dev\\magic_orange\\robotframework\\.venv\\Lib\\site-packages\\Browser\\wrapper\\index.js', '50220']</msg>
+<msg time="2025-06-08T02:05:53.352032" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":5000,"timeout":30000,"tracesDir":"C:\\Dev\\magic_orange\\robotframework\\browser\\traces\\f600d11f-14fb-4eb6-a179-da89c900739e"}</msg>
+<arg>browser=chromium</arg>
+<arg>headless=False</arg>
+<arg>slowMo=0:00:05</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-06-08T02:05:51.408584" elapsed="1.944449"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2025-06-08T02:05:53.356034" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  }
+}</msg>
+<msg time="2025-06-08T02:05:53.381548" level="INFO">Successfully created context. </msg>
+<msg time="2025-06-08T02:05:53.382771" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1366, 'height': 768}}</msg>
+<arg>viewport={"width": 1366, "height": 768}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2025-06-08T02:05:53.355034" elapsed="0.027737"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-06-08T02:06:01.787669" level="INFO">Successfully initialized new page object and opened url: https://the-internet.herokuapp.com/</msg>
+<arg>url=https://the-internet.herokuapp.com/</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-06-08T02:05:53.386045" elapsed="8.402625"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-06-08T02:06:01.791611" level="INFO">Clicks the element 'xpath=//a[text()= 'File Upload']'.</msg>
+<arg>selector=xpath=//a[text()= 'File Upload']</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-08T02:06:01.789671" elapsed="5.406797"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-06-08T02:06:07.200403" level="INFO">Clicks the element '#file-upload'.</msg>
+<arg>selector=#file-upload</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-08T02:06:07.198299" elapsed="5.100770"/>
+</kw>
+<msg time="2025-06-08T02:06:12.313619" level="INFO">Set timeout to: 10000</msg>
+<msg time="2025-06-08T02:06:12.325954" level="INFO">Switching context to context=40a9ab7b-54cf-48b6-bb47-0c7f4641dced in CURRENT</msg>
+<msg time="2025-06-08T02:06:12.398773" level="INFO">Successfully changed active context: context=40a9ab7b-54cf-48b6-bb47-0c7f4641dced</msg>
+<msg time="2025-06-08T02:06:12.404826" level="INFO">Switching browser to CURRENT</msg>
+<msg time="2025-06-08T02:06:12.409149" level="INFO">Returned active browser id. CURRENT</msg>
+<msg time="2025-06-08T02:06:12.409149" level="INFO">Switching browser to browser=68fad152-3c11-4456-af7b-7001e6d633b2</msg>
+<msg time="2025-06-08T02:06:12.412054" level="INFO">Successfully changed active browser: browser=68fad152-3c11-4456-af7b-7001e6d633b2</msg>
+<msg time="2025-06-08T02:06:12.412054" level="INFO">Switching context to CURRENT in CURRENT</msg>
+<msg time="2025-06-08T02:06:12.416502" level="INFO">Returned active context id: CURRENT</msg>
+<msg time="2025-06-08T02:06:12.416502" level="INFO">Switching context to context=40a9ab7b-54cf-48b6-bb47-0c7f4641dced in CURRENT</msg>
+<msg time="2025-06-08T02:06:12.428337" level="INFO">Successfully changed active context: context=40a9ab7b-54cf-48b6-bb47-0c7f4641dced</msg>
+<msg time="2025-06-08T02:06:12.512060" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2025-06-08T02:05:51.407552" elapsed="20.892981"/>
+</test>
+<status status="PASS" start="2025-06-08T02:05:51.216657" elapsed="21.296469"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="fileUpload test" id="s1" pass="1" fail="0" skip="0">fileUpload test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
